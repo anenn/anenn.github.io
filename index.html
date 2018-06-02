@@ -172,11 +172,11 @@
 
 
         //-------- 合约交互 --------//
-        var dappContactAddress = "n1eRRzgZDtq56M5qMTr5ftT7TbyC7gjUGi2"; // TODO 修改
+        var dappContactAddress = "n1wSTBLUwiYVdkCBqzoFaXFuhLss3FPmCRY"; // TODO 修改
         var nebulas = require("nebulas"),
             Account = nebulas.Account,
             neb = new nebulas.Neb();
-        neb.setRequest(new nebulas.HttpRequest("https://testnet.nebulas.io"))
+        neb.setRequest(new nebulas.HttpRequest("https://mainnet.nebulas.io"))
 
         var NebPay = require("nebpay"); //https://github.com/nebulasio/nebPay
         var nebPay = new NebPay();
